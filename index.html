@@ -1,0 +1,23 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <h1>Generate a <br><span>random password</span></h1>
+            <p>Never use an insecure password again.</p>
+        <button class="generatePassBtn" onclick="generatePasswords(), generatePasswordsTwo()">Generate passwords</button>
+        <div class="paragraph">
+            <p>Please select one of the following options to set the length of your password:</p>
+        </div>
+        <div class="passLengthButtons">
+            <button class="passLengthButton" onclick="generateTenCharPass(), generateTenCharPassTwo()">Click for 10 characters password</button>
+            <button class="passLengthButton" onclick="generateTwelveCharPass(), generateTwelveCharPassTwo()">Click for 12 characters password</button>
+            <button class="passLengthButton" onclick="generateFifteenCharPass(), generateFifteenCharPassTwo()">Click for 15 characters password</button>
+        </div>
+        <div class="passwordFields">
+            <p id="passwordOneField">Your safe password</p>
+            <p id="passwordTwoField">Your safe password</p>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

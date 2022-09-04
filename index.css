@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    background: #1F2937;
+}
+
+span {
+    color: #4AE088;
+}
+
+h1 {
+    color: white;
+    margin: 20px;
+}
+
+p {
+    color: #D5D4D8;
+    font-weight: 500;
+    margin: 20px;
+}
+
+.passLengthButton, .generatePassBtn {
+    background: #12B981;
+    border: none;
+    padding: 10px;
+    color: #FFFFFF;
+    border-radius: 6px;
+    margin: 30px 20px;
+    width: 33%;
+}
+
+.passwordFields {
+    display: flex;
+    border-top: solid 1px #273549;
+    
+}
+
+#passwordOneField, #passwordTwoField {
+    background: #283549;
+    padding: 10px;
+    margin: 30px auto;
+    width: 40%;
+    border-radius: 6px;
+    color: #12B981;
+    font-family: monospace;
+    text-align: center;
+}
+
+.passLengthButtons {
+    display: flex;
+    width: 100%;
+}
